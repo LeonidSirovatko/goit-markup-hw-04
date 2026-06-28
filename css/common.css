@@ -1,28 +1,14 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-
-a {
-  text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
 }
 
 ul {
-  list-style: none;
+    list-style: none;
 }
 
-button {
-  cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-p {
-  margin: 0;
-}
-
-img {
-  display: block;
+a {
+    text-decoration: none;
+    font-style: normal;
 }

@@ -1,25 +1,27 @@
-main section:first-child {
-  background-color: #2e2f42;
-  text-align: center;
-  padding: 120px 0;
+.hero {
+    background-color: #2e2f42;
 }
 
-h1 {
-  color: #ffffff;
-  font-size: 56px;
-  line-height: 1.07;
-  font-weight: 700;
+.hero-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
 
-button {
-  background-color: #4d5ae5;
-  color: #ffffff;
-  border: none;
-  padding: 16px 32px;
-  margin-top: 48px;
+.hero-button {
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-button:hover,
-button:focus {
-  background-color: #404bbf;
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404bbf;
 }
