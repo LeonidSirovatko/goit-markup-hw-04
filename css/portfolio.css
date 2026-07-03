@@ -7,9 +7,9 @@
     /* Внешние отступы и выравнивание удалены */
 }
 
+/* Свойство max-width: 100% удалено из этого класса */
 .portfolio-img {
     display: block;
-    max-width: 100%;
     height: auto;
 }
 
