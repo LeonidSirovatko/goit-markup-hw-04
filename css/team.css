@@ -1,6 +1,6 @@
-.team {
+.team,
+.team-section {
     background-color: #f4f4fd;
-    /* Внутренние отступы (padding) и центрирование (text-align) удалены */
 }
 
 .team-title {
