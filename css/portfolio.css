@@ -1,3 +1,4 @@
+/* ================= PORTFOLIO ================= */
 .portfolio-title {
     margin-bottom: 72px;
     text-align: center;
@@ -20,12 +21,12 @@
     transition: box-shadow var(--transition-dur-func);
 }
 
-/* Тень появляется при ховере */
+/* Исправлено строго по ТЗ: точные значения box-shadow от ментора */
 .portfolio-item:hover,
 .portfolio-item:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
-                0px 1px 1px rgba(46, 47, 66, 0.16), 
-                0px 2px 1px rgba(46, 47, 66, 0.08);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 
+                0 1px 1px 0 rgba(46, 47, 66, 0.16), 
+                0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-thumb {
@@ -33,7 +34,6 @@
     overflow: hidden;
 }
 
-/* Скрытый синий блок с текстом */
 .portfolio-overlay {
     position: absolute;
     top: 0;
@@ -51,7 +51,6 @@
     transition: transform var(--transition-dur-func);
 }
 
-/* Выплывание при ховере */
 .portfolio-item:hover .portfolio-overlay,
 .portfolio-item:focus .portfolio-overlay {
     transform: translateY(0%);

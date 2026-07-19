@@ -48,6 +48,7 @@
     border-radius: 4px; /* Скругление углов по Figma */
     padding: 16px 32px; /* Внутренние отступы по Figma */
     background-color: #4d5ae5; /* Цвет Iris (#4D5AE5) */
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     
     /* Стили текста кнопки */
     font-family: "Roboto", sans-serif;
